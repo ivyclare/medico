@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="200dp"
+    android:background="#E6E6FA"
+    android:scrollbars="none">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" >
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+
+            <TextView
+                 android:text="@string/doseval"
+                android:id="@+id/doseValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textSize = "18dp"
+                />
+
+
+            <TextView
+                android:id="@+id/presentaValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/presval"
+                android:textSize = "18dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:id="@+id/br"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/br"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="0dp"
+                android:textSize = "18sp"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/costValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="@string/costval"
+                android:textSize = "18dp"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/brr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="@string/brr"
+                android:textSize = "18dp"
+                android:layout_column="3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" >
+
+
+        </TableRow>
+
+
+           </TableLayout>
+
+</HorizontalScrollView>

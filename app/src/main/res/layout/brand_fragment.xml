@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8"
+    android:orientation="vertical"
+    tools:context=".Brand_Fragment" >
+
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expListView"
+        android:divider="@drawable/exp_listcolor"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4527a0"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/adult"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text = "Adult:"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle = "bold"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:id="@+id/adultValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#4caf50"
+            android:textStyle = "bold"
+            android:textSize="18sp"
+            android:text = "ValueS"
+            android:layout_toRightOf="@+id/adult"
+            />
+
+        <TextView
+            android:id="@+id/pediatric"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text = "Pediatric:"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle = "bold"
+            android:layout_marginLeft="235dp"
+            />
+
+        <TextView
+            android:id="@+id/pediatricValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="255dp"
+            android:textColor="#4caf50"
+            android:textStyle = "bold"
+            android:text = "Value"
+            android:layout_toRightOf="@+id/adult"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

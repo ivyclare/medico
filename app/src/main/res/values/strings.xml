@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Medicos</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imagedesc"></string>
+    <string name="login_butt">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="edit"> Edit</string>
+    <string name="update">Update</string>
+    <string name="login_details">Login Details</string>
+    <string name="signup_details">Signup Details</string>
+    <string name="login"> Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="druglist">DRUG LIST</string>
+    <string name="ref">REFERENCE VALUES</string>
+    <string name="register">SIGNUP DETAILS</string>
+    <string name="submit">SUBMIT</string>
+    <string name="name">Full name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="speciality">Speciality</string>
+    <string name="search">Search for Drug</string>
+    <string name="country">Country</string>
+    <string name="region">Region and City</string>
+    <string name="health">Heath Structure</string>
+    <string name="list">Drug List</string>
+    <string name="title_brand">BRAND</string>
+     <string name="title_preg">PREGNANCY</string>
+    <string name="amm">AMM: </string>
+    <string name="dosage">DOSAGE: </string>
+    <string name="produit">PRODUIT: </string>
+    <string name="forme">FORME: </string>
+    <string name="presentation">PRESENTATION: </string>
+    <string name="titulaire">TITULAIRE: </string>
+    <string name="fabricant">FABRICANT: </string>
+    <string name="dateamm">DATEAMM: </string>
+    <string name="instruction"> Fill In the Form And Submit</string>
+
+    <string name="druglists">Drug List</string>
+    <string name="refs">Reference Values</string>
+
+    <string name="cv">Conventional Value </string>
+    <string name="si">SI Unit </string>
+
+    <string-array name="bar_array">
+        <item>Home</item>
+        <item>Drug List</item>
+        <item>Reference Values</item>
+        <item>Account Info</item>
+        <item>Logout</item>
+    </string-array>
+
+
+    <string name="drawer_open">Drawer Open </string>
+    <string name="drawer_close">Drawer Close </string>
+    <string name="peremption">PEREMPTION: </string>
+
+
+    <string name="nav_item_accinfo">Account Info</string>
+    <string name="nav_item_drug">Druglist</string>
+    <string name="nav_item_range">Reference Values</string>
+    <string name="nav_item_logout">Logout</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_drug</item>
+        <item>@string/nav_item_range</item>
+        <item>@string/nav_item_accinfo</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string name="title_out">LOGOUT</string>
+    <string name="title_messages">ACCOUNT INFO</string>
+    <string name="title_friends">REFERENCE VALUES</string>
+    <string name="title_home">LIST OF DRUGS</string>
+    <string name="title_activity_ref_details">RefDetailsActivity</string>
+
+    <string name="pclass">CLASS: </string>
+    <string name="classa"> CLASS A : INTERPRETATION </string>
+    <string name="classb"> CLASS B : INTERPRETATION </string>
+    <string name="classc"> CLASS C : INTERPRETATION </string>
+    <string name="classd"> CLASS D : INTERPRETATION </string>
+    <string name="classx"> CLASS X : INTERPRETATION </string>
+    <string name="classNA"> N/A : Not AVAILABLE </string>
+
+
+    <string name="doseval"> 1g </string>
+    <string name="presval"> Fl/15ml </string>
+    <string name="br">( </string>
+    <string name="costval"> 2500FCFA </string>
+    <string name="brr">) </string>
+    <string name="forgotpassword">Forgotten Password??</string>
+    <string name="passwordinstructions">Enter the CODE that has been sent to  your email</string>
+    <string name="enter">Enter</string>
+    <string name="code">Enter Code</string>
+    <string name="entere">Enter Your Email</string>
+    <string name="newpassword">Enter New Password</string>
+
+
+</resources>

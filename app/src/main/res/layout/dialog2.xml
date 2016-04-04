@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/passwordinstructions"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="#009688"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="55dp" />
+
+    <EditText
+        android:id="@+id/dialogcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:hint="@string/code"
+        android:inputType="textEmailAddress" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/dialognewpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:text="@string/newpassword">
+
+    </EditText>
+
+</LinearLayout>
+

@@ -1,0 +1,253 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ivoline.medicos.AccountInfoFragment">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="ACCOUNT INFO"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:text="@string/username"
+                android:textStyle = "bold|italic"
+                android:textColor="@color/colorPrimary"
+                android:textSize = "18dp" />
+
+            <EditText
+                android:id="@+id/editusername"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                android:textIsSelectable="false"
+                android:singleLine="true" ></EditText>
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/email"
+                android:textColor="@color/colorPrimary"
+                android:textSize = "18dp" />
+
+            <EditText
+                android:id="@+id/editemail"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/email"
+                android:textIsSelectable="false"
+                android:inputType="textPersonName"
+                android:singleLine="true" ></EditText>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/spec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/speciality"
+                android:textColor="@color/colorPrimary"
+                android:textSize = "18dp" />
+
+            <EditText
+                android:id="@+id/editspec"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/speciality"
+                android:textIsSelectable="false"
+                android:inputType="textPersonName"
+                android:singleLine="true" ></EditText>
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/region"
+                android:textColor="@color/colorPrimary"
+                android:textSize = "18dp" />
+
+            <EditText
+                android:id="@+id/editreg"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/region"
+                android:textIsSelectable="false"
+                android:inputType="textPersonName"
+                android:singleLine="true" ></EditText>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/ctry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/country"
+                android:textColor="@color/colorPrimary"
+                android:textSize = "18dp" />
+
+            <EditText
+                android:id="@+id/editctry"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/country"
+                android:textIsSelectable="false"
+                android:inputType="textPersonName"
+                android:singleLine="true" ></EditText>
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/struct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/health"
+                android:textColor="@color/colorPrimary"
+                android:textSize = "18dp" />
+
+            <EditText
+                android:id="@+id/editstruct"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:textIsSelectable="false"
+                android:gravity="center"
+                android:hint="@string/health"
+                android:inputType="textPersonName"
+                android:singleLine="true" ></EditText>
+
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="@string/update"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@android:drawable/ic_menu_edit" />
+
+</RelativeLayout>

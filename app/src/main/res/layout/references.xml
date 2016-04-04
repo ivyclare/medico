@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:dividerPadding="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputSearchs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search"
+        android:inputType="textVisiblePassword" />
+
+    <!-- List View -->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.23"
+        android:background="#E6E6FA"
+        android:divider="@drawable/list_color"
+        android:dividerHeight="2dp"
+        android:fadingEdgeLength="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+    </ListView>
+
+</LinearLayout>

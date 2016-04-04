@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="200dp"
+    android:background="@color/navigationBarColor"
+    android:scrollbars="none">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/amm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:text="@string/amm"
+                android:textStyle = "bold|italic"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/ammValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="value"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text = "billlllly"
+                android:textColor="#00FA9A"
+                android:background="#00FA9A"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/dosage"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/dosageValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="dose"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/produit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/produit"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/produitValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="produit"
+                android:textSize = "18dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/forme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/forme"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/formeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="forme"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/presentation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/presentation"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/presentationValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="presentation"
+                android:textSize = "18dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/titulaire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/titulaire"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/titulaireValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="titulaire"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/fabricant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/fabricant"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/fabricantValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="fabricant"
+                android:textSize = "18dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/dateamm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/dateamm"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/dateammValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="dateamm"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/peremption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/peremption"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/peremptionValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="peremption"
+                android:textSize = "18dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    </HorizontalScrollView>

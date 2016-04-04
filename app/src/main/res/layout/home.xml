@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundshape" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imagedesc"
+        android:src="@drawable/meds"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/bsignup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/signup"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:onClick="signup"
+        android:background="@drawable/shape1"
+        android:layout_above="@+id/fpassword"
+        android:layout_alignLeft="@+id/blogin"
+        android:layout_alignStart="@+id/blogin" />
+
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/login_butt"
+        android:textSize="20sp"
+        android:onClick="login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/shape1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/forgotpassword"
+        android:textSize="15sp"
+        android:textStyle=""
+        android:id="@+id/fpassword"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:layout_marginBottom="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

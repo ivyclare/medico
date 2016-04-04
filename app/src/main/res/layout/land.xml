@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#E6E6FA" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+   <!-- <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imagedesc"
+        android:src="@drawable/land"
+        android:layout_marginTop="121dp"
+        android:layout_alignParentTop="true"
+        android:text = "@string/druglist"
+        android:layout_centerHorizontal="true" /> -->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdrug"
+        android:layout_marginLeft="46dp"
+        android:text = "@string/ref"
+        android:src="@drawable/im"
+        android:background="@drawable/imagebuttoncolor"
+        android:layout_marginStart="46dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brange"
+        android:src="@drawable/ims"
+        android:layout_marginRight="84dp"
+        android:layout_marginEnd="84dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/druglists"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_below="@+id/bdrug"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/bdrug"
+        android:layout_alignStart="@+id/bdrug" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/refs"
+        android:id="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/brange"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/brange"
+        android:layout_alignStart="@+id/brange" />
+
+    <!-- <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imageButton"
+         android:layout_below="@+id/imageView1"
+         android:layout_alignParentLeft="true"
+         android:src = ""
+         android:layout_alignParentStart="true"
+         android:layout_marginTop="125dp" />
+
+
+      <Button
+          android:id="@+id/bdrug"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/imageView1"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="69dp"
+          android:background="@drawable/shape1"
+          android:padding="3dp"
+          android:text="@string/druglist"
+          android:textSize="20sp" />
+
+      <Button
+          android:id="@+id/brange"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/bdrug"
+          android:layout_below="@+id/bdrug"
+          android:layout_marginTop="52dp"
+          android:background="@drawable/shape1"
+          android:padding="3dp"
+          android:text="@string/ref"
+          android:textSize="20sp"
+           />  -->
+
+
+</RelativeLayout>

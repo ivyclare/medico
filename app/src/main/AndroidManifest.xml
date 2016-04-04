@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ivoline.medicos" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+        </activity>
+
+
+        <activity
+            android:name=".LandPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+
+            >
+        </activity>
+
+        <activity
+            android:name=".DrugList"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+
+            >
+        </activity>
+
+        <activity
+            android:name=".SignUpDetails"
+            android:label="@string/app_name"
+            >
+        </activity>
+
+        <activity
+            android:name=".RefDetailsActivity"
+            android:label="@string/title_activity_ref_details"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+        </activity>
+
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/app_name"
+            >
+        </activity>
+
+        <activity
+            android:name=".ForgotPassword2"
+            android:label="@string/app_name"
+            >
+        </activity>
+
+        <provider
+            android:name=".provider.myContentProvider"
+            android:authorities="com.example.ivoline.provider.myContentProvider"
+            android:exported="true"
+            android:enabled = "true"
+            android:multiprocess="true"
+            android:permission="com.example.ivoline.medicos.PERM_CONTENT_PROVIDER"
+            >
+        </provider>
+
+    </application>
+
+</manifest>

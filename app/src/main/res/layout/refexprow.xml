@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="200dp"
+    android:scrollbars="none">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/si"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:text="@string/si"
+                android:textStyle = "bold|italic"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/siValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="value"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/cv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:typeface="normal"
+                android:textStyle = "bold|italic"
+                android:text="@string/cv"
+                android:textColor="#33b5e5"
+                android:textSize = "18dp" />
+
+            <TextView
+                android:id="@+id/cvValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="produit"
+                android:textSize = "18dp" />
+        </TableRow>
+
+       
+       </TableLayout>
+
+</HorizontalScrollView>
